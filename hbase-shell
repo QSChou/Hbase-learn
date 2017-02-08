@@ -1,1 +1,7 @@
+## hbase shell
+[usr@host~]$ hbase shell
+....
+hbase(main):001:0> list ## list command will list all hbase tables
+hbase(main):001:0> describe 'kylin_metadata' 
+hbase(main):001:0> scan 'kylin_metadata'
 
